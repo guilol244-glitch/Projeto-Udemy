@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/CSS/class.css">
+    <link rel="stylesheet" href="./Assets/CSS/elements.css">
+    <link rel="stylesheet" href="./Assets/CSS/variables.css">
+    <link rel="stylesheet" href="./Assets/CSS/menu.css">
+    <link rel="stylesheet" href="./Assets/CSS/intro.css">
+    <link rel="stylesheet" href="./Assets/CSS/top3.css">
+    <link rel="stylesheet" href="./Assets/CSS/galery.css">
+    <link rel="stylesheet" href="./Assets/CSS/media.css">
+    
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu ">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#">Logo</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#top3">Intro</a></li>
+                    <li><a href="#top3-jobs">top 3 jobs</a></li>
+                    <li><a href="#galery">Galeria</a></li>
+                    <li><a href="#top3-programationlanguage">top 3 programation language</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <div id="intro" class="main-bg section-site inicio"> 
+        <div class="main-content inicio-content">
+        <div class="inicio-text">
+            <h2>Bem-vindo ao nosso site!</h2>
+            <p>Este é um exemplo de layout usando CSS Grid para organizar o conteúdo em duas colunas.</p>
+        </div>
+        <div class="inicio-img">
+            <img src="/Assets/IMG/desenvolvimentowebimage.svg" alt="Uma mulher em frente a um computador, desenvolvendo um site.">
+        </div>
+        </div>
+    </div>
+
+    <section id="top3" class="white-bg section-site">
+        <div class="main-content top3-content">
+            <h2> Top 3 jobs</h2>
+            <p> The top three jobs for software engineers right now are Data Scientist, Full-Stack Developer, and Machine Learning Engineer. These positions stand out because they combine high demand across industries, strong salaries, and long-term career growth opportunities in 2026 and beyond. Each role represents a different frontier of technology, offering professionals the chance to work on meaningful projects that shape the future of business, science, and society.</p>
+        </div>
+    </section>
+
+    <section id="top3-jobs" class="main-bg section-site">
+        <div class="top3-jobs-content main-content">
+            <h2 class="top3-title">Top 3 Jobs</h2>
+            <p class="top3-description">These are the top three jobs for software engineers right now.</p>
+
+            <div class="top3-jobs-grid">
+                <article>
+                    <h3>Data Scientist</h3>
+                    <p>Companies rely on data-driven decisions. With AI tools, human intuition plus coding is irreplaceable.</p>
+               </article>
+               <article>
+                    <h3>Full-Stack Developer</h3>
+                    <p>Businesses need engineers who can handle end-to-end product development, making this role highly flexible and valuable.</p>
+               </article>
+               <article>
+                    <h3>Machine Learning Engineer</h3>
+                    <p>AI adoption is exploding in healthcare, finance, and tech. Engineers who can design and deploy ML models are in short supply.</p>
+               </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="galery" class="white-bg section-site"> 
+      <div class="galery-content main-content">
+        <h2 class="top3-title">Gallery</h2>
+        <p class="top3-description">A galery with random images from Unsplash.</p>
+        <div class="galery-grid">
+            <div class="galery-img">
+                <img src="https://images.wallpapersden.com/image/download/artistic-waterfall-hd-adventure-2023_bW5mbGqUmZqaraWkpJRoa2WtaGtl.jpg" alt=" Random image from Unsplash 1">
+            </div>
+            
+                <div class="galery-img">
+                    <img src="https://images.wallpapersden.com/image/download/river-water-surface_ZmxtaG6UmZqaraWkpJRoa2WtaGtl.jpg" alt="Random image from Unsplash 2">
+                </div>
+                <div class="galery-img">
+                    <img src="https://images.wallpapersden.com/image/download/space-galaxy_69686_360x360.jpg" alt="Random image from Unsplash 3">
+                </div>
+                <div class="galery-img">
+                    <img src="https://images.wallpapersden.com/image/download/colorful-lake-and-sunset_a2ZnamiUmZqaraWkpJRoa2WtaGtl.jpg" alt="Random image from Unsplash 4">
+                </div>
+                <div class="galery-img">
+                    <img src="https://images.wallpapersden.com/image/download/retro-futuristic-cityscape-hd-pixel_bmdoaWyUmZqaraWkpJRoa2WtaGtl.jpg" alt="Random image from Unsplash 4">
+                </div>
+                <div class="galery-img">
+                    <img src="https://images.wallpapersden.com/image/download/the-rise-of-planet-hd-mountain-tip_bWxmamuUmZqaraWkpJRoa2WtaGtl.jpg" alt="Random image from Unsplash 4">
+                </div>
+            </div
+        </div>
+    </section>
+
+        <section id="top3-programationlanguage" class="main-bg section-site">
+        <div class="top3-jobs-content main-content">
+            <h2 class="top3-title">Top 3 programation language</h2>
+            <p class="top3-description">These are the top three programation languages for software engineers right now.</p>
+
+            <div class="top3-jobs-grid">
+                <article>
+                    <h3>TypeScript (JavaScript)</h3>
+                    <p>The backbone of modern front-end frameworks (React, Angular, Vue) and increasingly used in back-end with Node.js..</p>
+               </article>
+               <article>
+                    <h3>Java</h3>
+                    <p>Despite being older, it remains indispensable in enterprise software, financial systems, and Android development.</p>
+               </article>
+               <article>
+                    <h3>C#</h3>
+                    <p>Perfect for engineers working with Microsoft technologies, Unity game development, and scalable cloud apps.</p>
+               </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="white-bg section-site">
+        <div class="main-content top3-content">
+            <h2> Pricing</h2>
+            <p> The top three jobs for software engineers right now are Data Scientist, Full-Stack Developer, and Machine Learning Engineer. These positions stand out because they combine high demand across industries, strong salaries, and long-term career growth opportunities in 2026 and beyond. Each role represents a different frontier of technology, offering professionals the chance to work on meaningful projects that shape the future of business, science, and society.</p>
+                <div class="responsive-table">
+                    <table>
+                        <caption>Pracing Table</caption>
+                        <thead>
+                            <tr>
+                                <th>Title 1</th>
+                                <th>Title 2</th>
+                                <th>Title 3</th>
+                                <th>Title 1</th>
+                                <th>Title 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Content 1</td>
+                                <td>Content 2</td> 
+                                <td>Content 3</td>
+                                <td>Content 2</td> 
+                                <td>Content 3</td>
+                            </tr>
+                            <tr>  
+                                <td>Content 4</td>
+                                <td>Content 5</td> 
+                                <td>Content 6</td>
+                                <td>Content 2</td> 
+                                <td>Content 3</td>
+                            </tr>
+                            <tr>
+                                <td>Content 7</td>
+                                <td>Content 8</td> 
+                                <td>Content 9</td>
+                                <td>Content 2</td> 
+                                <td>Content 3</td>
+                            </tr>
+                            
+                        </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Footer</td>
+                            </tr>
+                        </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <div id="contact" class="main-bg section-site inicio"> 
+        <div class="main-content inicio-content">
+        <div class="inicio-text">
+            <h2>Bem-vindo ao nosso site!</h2>
+            <p>Este é um exemplo de layout usando CSS Grid para organizar o conteúdo em duas colunas.</p>
+        </div>
+        <div class="inicio-img">
+            <img src="./Assets/IMG/undraw_contact-us_kcoa.svg" alt="uma mulher simbolizando contato">
+        </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>    
+                    <div class="form-group">
+                        <label for="Last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>    
+                    <div class="form-group">   
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                        <div class="form-buttons">
+                            <button type="submit">Send message</button>
+                        </div>    
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <p><a rel="nofollow" href="">Feito com ❤️ por Guilherme</a></p>
+    </footer>
+    
+    <a class="back-to-top" href="#">↑</a>
+</body>
+</html>

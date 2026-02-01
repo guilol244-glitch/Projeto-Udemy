@@ -1,0 +1,28 @@
+.galery-img {
+    width: 100%;
+    max-width: 20rem;
+    max-height: 20rem;
+    overflow: hidden;
+}
+
+.galery-img img {
+    transition: all 300ms ease-in-out;
+}
+
+.galery-img img:hover {
+    transform: translate(-3%, 3%) scale(1.1) rotate(5deg);
+}
+
+.galery-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.galery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
