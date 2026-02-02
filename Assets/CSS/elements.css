@@ -18,11 +18,13 @@ a {
     background-size: cover;
     background-position: center center;
     color: var(--font-color-light);
+    max-width: 100%;
 }
 
 .white-bg {
     background-color : #ffffff;
     color : var(--font-color-dark);
+    max-width: 100%;
 }
 
 body {
