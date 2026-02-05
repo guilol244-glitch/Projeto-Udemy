@@ -111,3 +111,6 @@ tfoot , thead {
     color: white;
 }
 
+.back-to-top {
+    display: none;
+}
